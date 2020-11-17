@@ -1,0 +1,82 @@
+.page{
+  height:900px;
+}
+
+h1{
+  font-family: "Lucida Console";
+  text-align:center;
+}
+
+#board{
+  
+  height:600px;
+  width:600px;
+  border-style:solid;
+  font-size:100px;
+  margin-left:-4%;
+  margin-top:13%;
+  z-index:2;
+  
+}
+
+.scores{
+  font-size:40px;
+}
+#player1{
+  position:relative;
+  float:left;
+  padding-left:150px;
+}
+#buttons{
+  margin-left:30%;
+}
+#player2{
+  position:relative;
+  float:right;
+
+}
+#posts{
+  padding-top:50px;
+  text-align:center;
+  margin:auto;
+  width:27%;
+}
+.edit{
+  border-style:solid;
+border:3px solid black;
+  box-sizing:border-box;
+   height:200px;
+  width:200px;
+  text-align: center;
+vertical-align: middle;
+  line-height:150px;
+}
+.edit:hover{
+  background-color:#e0e8fe;
+}
+#buttons{
+  
+  position:absolute;
+  
+  margin-left:27%;
+  padding-top:10px;
+  z-index:1;
+  
+}
+#newGame{
+  margin-left:10px;
+}
+#resetScores{
+  margin-left:20px;
+  
+}
+#computer{
+  margin-left:20px;
+}
+#human{
+  margin-left:20px;
+}
+#final{
+  margin-left:20px;
+}
+
